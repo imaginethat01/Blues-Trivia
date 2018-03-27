@@ -1,0 +1,90 @@
+
+
+
+/* FONTS and other Misc */
+.text-center {
+    color: white;
+}
+
+
+
+h1 { 
+  font-family: 'Lobster', cursive;
+  font-size: 2.5em;
+  z-index: 1;
+  text-shadow: 4px 2px rgb(224, 113, 22); }
+
+p { font-family: 'Share Tech', sans-serif;
+    color: wheat;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #333;
+    background-size: 50px; }
+
+
+
+li {color: wheat;
+    font-size: 18px; }
+
+
+body {
+  
+  background-image: url("assets/americanmusic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333;
+            height: 100%;
+            width: 100%;
+            overflow:auto;
+            margin: 2%;
+            padding: 8%;
+            z-index: 0; }
+
+
+    /* CSS Selectors. Java Dependant. Styles customized by AJM. - */
+
+    .jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(247, 242, 242, 0);
+}
+
+.main-button-container {
+  margin-top: 30%;
+  max-width: 66.6%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: rgb(224, 113, 22);
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: wheat;
+  padding-left: 14px;
+  background-color:#333;
+  border-radius: 4px;
+}
+
+
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.reset-button {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
+
+
